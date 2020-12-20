@@ -1,0 +1,29 @@
+{  "type": "postgres",
+   "host": "jwcuisine-do-user-8439541-0.b.db.ondigitalocean.com",
+   "port": 25060,
+   "username": "doadmin",
+   "password": "abi4s2s7jrai8rs6",
+   "database": "defaultdb",
+   "ssl": {
+      "rejectUnauthorized:": false,
+      "ca": "fs.readFileSync('/etc/letsencrypt/live/jwcuisine.io/cert.pem').toString()",
+      "key": "fs.readFileSync('/etc/letsencrypt/live/jwcuisine.io/'privkey.pem)",
+      "cert": "fs.readFileSync('/etc/letsencrypt/live/jwcuisine.io/'chain.pem')"
+   },
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
