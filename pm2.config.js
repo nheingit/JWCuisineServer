@@ -12,7 +12,7 @@ module.exports = {
       name,
       node_args: '-r dotenv/config',
       cwd: `${path}/current/`,
-      script: 'build/index.js',
+      script: 'dist/index.js',
       max_memory_restart: '1G',
       env: {
         NODE_ENV: 'development',
