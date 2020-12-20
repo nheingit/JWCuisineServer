@@ -11,13 +11,13 @@
       "rejectUnauthorized": false
    },
    "entities": [
-      "src/entity/**/*"
+      "dist/entity/**/*.js"
    ],
    "migrations": [
-      "src/migration/**/*"
+      "src/migration/**/*.ts"
    ],
    "subscribers": [
-      "src/subscriber/**/*"
+      "src/subscriber/**/*.ts"
    ],
    "cli": {
       "entitiesDir": "src/entity",
