@@ -19,9 +19,6 @@ module.exports = {
       },
       env_production: {
         NODE_ENV: 'production',
-        STRIPE_KEY: "sk_test_52HdzEeJIQLh7k5Y6EpBYW0fe4zbSoDhmD0lMPHzOyT2kSlvML1YDWg8Jzqc3YsSWtxgwWyRQpSZw6jH7xZudVMFF005PdFxbuf",
-        STRIPE_SUBSCRIPTION_FOR_TWO: "price_1HvCOeJIQLh7k5Y6RRvl4QTK",
-        STRIPE_SUBSCRIPTION_FOR_FOUR: "price_1HvCPTJIQLh7k5Y6XQH1rd27",
       },
     },
   ],
