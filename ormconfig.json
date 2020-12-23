@@ -11,8 +11,7 @@
       "rejectUnauthorized": false
    },
    "entities": [
-      "dist/entity/*.js",
-      "src/entity/**/*.ts" 
+      "dist/entity/*.js"
    ],
    "migrations": [
       "src/migration/**/*.ts"
