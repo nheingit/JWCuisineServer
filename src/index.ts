@@ -6,7 +6,6 @@ import * as express from "express";
 import {typeDefs} from './typeDefs';
 import {resolvers} from './resolvers';
 import * as session from "express-session";
-var cors = require('cors'); 
 
 const startServer = async () => {
   const server = new ApolloServer({
@@ -18,8 +17,6 @@ const startServer = async () => {
 await createConnection();
 
 const app = express();
-
-app.use(cors());
 
 
 app.use(session({
@@ -35,7 +32,7 @@ server.applyMiddleware({ app, cors:{
 
 
 app.listen({ port: 4000 }, () =>
-  console.log(`🚀 Server ready at http://165.22.188.205:4000${server.graphqlPath}`)
+  console.log(`🚀 Server ready at http://jwcuisine.io:4000${server.graphqlPath}`)
 )
 }
 startServer();
