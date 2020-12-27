@@ -1,4 +1,4 @@
-const name = 'JWCuisineServerApi' // Name to use in PM2
+const name = 'JWCuisineServerApiTest' // Name to use in PM2
 const repo = 'https://github.com/nheingit/JWCuisineServer.git' // Link to your repo
 const user = 'root' // Server user
 const path = `/home/${user}/${name}` // Path on the server to deploy to
