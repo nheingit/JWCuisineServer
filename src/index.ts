@@ -26,7 +26,7 @@ app.use(session({
 }));
 server.applyMiddleware({ app, cors:{
   credentials: true,
-  origin: "http://jwcuisine.io"
+  origin: "https://jwcuisine.io"
 } });
 
 
