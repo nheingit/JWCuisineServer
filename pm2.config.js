@@ -19,6 +19,7 @@ module.exports = {
       },
       env_production: {
         NODE_ENV: 'production',
+        STRIPE_KEY: 'STRIPE_KEY=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',
       },
     },
   ],
